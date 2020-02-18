@@ -228,3 +228,18 @@ body {
     font-weight: bolder;
 }
 
+@media screen and (max-width: 640px) {
+    #name {
+        position: static;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .top-header {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}

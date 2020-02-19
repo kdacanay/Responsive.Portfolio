@@ -26,7 +26,7 @@
     font-weight: bolder;
 }
 
-#hangman-image {
+.hangman-image {
     height: 200px;
     width: 275px;
 }
@@ -59,7 +59,7 @@
     font-weight: bolder;
 }
 
-#rpg-image {
+.rpg-image {
     height: 200px;
     width: 275px;
 }
@@ -92,7 +92,7 @@
     font-weight: bolder;
 }
 
-#trivia-image {
+.trivia-image {
     height: 200px;
     width: 275px;  
 }
@@ -125,7 +125,7 @@
     font-weight: bolder;
 }
 
-#rutgers-image {
+.rutgers-image {
     height: 200px;
     width: 275px;
 }
@@ -158,7 +158,7 @@
     font-weight: bolder;
 }
 
-#rock-image {
+.rock-image {
     height: 200px;
     width: 275px;
 }

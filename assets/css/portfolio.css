@@ -1,3 +1,6 @@
+/*seperate css for portfolio.html page */
+
+/*hangman*/
 .hangman-box {
     position: relative;
     float: left;
@@ -30,7 +33,7 @@
     height: 200px;
     width: 275px;
 }
-
+/*rpg*/
 .rpg-box {
     position: relative;
     float: right;
@@ -63,7 +66,7 @@
     height: 200px;
     width: 275px;
 }
-
+/*trivia*/
 .trivia-box {
     position: relative;
     float: left;
@@ -96,7 +99,7 @@
     height: 200px;
     width: 275px;  
 }
-
+/*rutgers*/
 .rutgers-box {
     position: relative;
     float: right;
@@ -129,7 +132,7 @@
     height: 200px;
     width: 275px;
 }
-
+/*rock*/
 .rock-box {
     position: relative;
     float: left;
@@ -163,7 +166,8 @@
     width: 275px;
 }
 
-.main-container {
+/*main-container for portfolio.html page */
+.games {
     background-color: #ffffff;
     margin-top: 50px;
     width: 960px; 

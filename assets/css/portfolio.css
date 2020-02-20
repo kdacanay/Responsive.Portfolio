@@ -17,6 +17,7 @@
     width: 275px;
     background-color: #4aaaa5;
     text-align: center;
+    color: #ffffff;
 }
 
 .hangman-text:hover {
@@ -37,7 +38,7 @@
 .rpg-box {
     position: relative;
     float: right;
-    margin-right: 345px;
+    margin-right: 10px;
     margin-top: 15px;
 }
 

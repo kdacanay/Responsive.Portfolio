@@ -21,9 +21,7 @@
             #1e4543, #91c4c2, #1e4543);
     font-weight: bolder;
 }
-.textbox:nth-child(even) {
-    margin-right: 40px;
-  }
+
 .textbox h3 {
         position: absolute;
         bottom: 20px;
@@ -37,7 +35,9 @@
         background: #4aaaa5;
         border-bottom: 0;
 }
-
+.textbox:nth-child(even) {
+    margin-right: 40px;
+  }
 /*hangman*/
 
 .hangman-image {
@@ -56,7 +56,7 @@
     float: left;
   height: auto;
   margin-top: 10px;
-  margin-right: 25px;
+  margin-right: 40px;
 }
 /*trivia*/
 
@@ -77,7 +77,7 @@
   float: left;
   height: auto;
   margin-top: 10px;
-  margin-right: 25px;
+  margin-right: 40px;
 }
 /*rock*/
 
@@ -91,13 +91,7 @@
     margin-right: 25px;
 }
 
-.auth-image {
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
-  }
+
 /*main-container for portfolio.html page */
 .games {
     background-color: #ffffff;

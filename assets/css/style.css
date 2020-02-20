@@ -133,7 +133,7 @@ body {
     padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
-    border-bottom: 2px solid #eeeeee;
+    
   }
   .about-image {
     float: left;
@@ -242,46 +242,3 @@ body {
 
 
 /*responsive assignment*/
-@media screen and (max-width: 640px) {
-    .name {
-        margin-bottom: 0;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    header .top-nav {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        overflow-wrap: normal;
-        
-
-    }
-    .wrapper {
-        
-        overflow-wrap: normal;
-        width: 100%;
-
-    }
-    .main-container .container-heading {
-        margin-top: 10%;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto; 
-        overflow-wrap: normal;
-        margin-top: 20%;
-    }
-    .link {
-        background-color: #ffffff;
-        height: 20px;
-        display: grid;
-        grid-template-columns: 1 2fr;
-        width: 100%;
-        margin-top: 0;
-        margin-left: auto;
-        margin-right: auto;
-        float: right;
-        margin-bottom: 0;
-    }
-}

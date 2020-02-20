@@ -1,172 +1,103 @@
 /*seperate css for portfolio.html page */
+.gametext {
+    color: #ffffff;
+}
+.gametext:hover {
+    color: #777777;
+}
+.textbox {
+    position: relative;
+    float: left;
+    width: 295px;
+    margin: 20px 0 25px;
+    overflow: auto;
+}
+
+.textbox:hover {
+    outline: 0px solid transparent;
+    background-image: 
+        linear-gradient( 
+            to right,
+            #1e4543, #91c4c2, #1e4543);
+    font-weight: bolder;
+}
+.textbox:nth-child(even) {
+    margin-right: 40px;
+  }
+.textbox h3 {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 0;
+        font-weight: 300;
+        line-height: 30px;
+        color: #ffffff;
+        text-align: center;
+        background: #4aaaa5;
+        border-bottom: 0;
+}
 
 /*hangman*/
-.hangman-box {
-    position: relative;
-    float: left;
-    margin-left: 30px;
-    margin-top: 15px;
-}
-
-.hangman-box .hangman-text {
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    bottom: 5%;
-    width: 275px;
-    background-color: #4aaaa5;
-    text-align: center;
-    color: #ffffff;
-}
-
-.hangman-text:hover {
-    outline: 0px solid transparent;
-    color: #ffffff;
-    background-image: 
-        linear-gradient( 
-            to right,
-            #1e4543, #91c4c2, #1e4543);
-    font-weight: bolder;
-}
 
 .hangman-image {
-    height: 200px;
-    width: 275px;
+    width: 100%;
+    border: 0 none;
+        float: left;
+        height: auto;
+        margin-top: 10px;
+        margin-right: 25px;
 }
 /*rpg*/
-.rpg-box {
-    position: relative;
-    float: right;
-    margin-right: 10px;
-    margin-top: 15px;
-}
-
-.rpg-box .rpg-text {
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    bottom: 5%;
-    width: 275px;
-    background-color: #4aaaa5;
-    text-align: center;
-}
-
-.rpg-text:hover {
-    outline: 0px solid transparent;
-    color: #ffffff;
-    background-image: 
-        linear-gradient( 
-            to right,
-            #1e4543, #91c4c2, #1e4543);
-    font-weight: bolder;
-}
 
 .rpg-image {
-    height: 200px;
-    width: 275px;
+    width: 100%;
+    border: 0 none;
+    float: left;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
 }
 /*trivia*/
-.trivia-box {
-    position: relative;
-    float: left;
-    margin-left: 30px;
-    margin-top: 25px;
-}
 
-.trivia-box .trivia-text {
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    bottom: 5%;
-    width: 275px;
-    background-color: #4aaaa5;
-    text-align: center;
-}
-
-.trivia-text:hover {
-    outline: 0px solid transparent;
-    color: #ffffff;
-    background-image: 
-        linear-gradient( 
-            to right,
-            #1e4543, #91c4c2, #1e4543);
-    font-weight: bolder;
-}
 
 .trivia-image {
-    height: 200px;
-    width: 275px;  
+    width: 100%;
+    border: 0 none;
+    float: left;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
 }
 /*rutgers*/
-.rutgers-box {
-    position: relative;
-    float: right;
-    margin-right: 345px;
-    margin-top: 25px;
-}
-
-.rutgers-box .rutgers-text {
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    bottom: 5%;
-    width: 275px;
-    background-color: #4aaaa5;
-    text-align: center;
-}
-
-.rutgers-text:hover {
-    outline: 0px solid transparent;
-    color: #ffffff;
-    background-image: 
-        linear-gradient( 
-            to right,
-            #1e4543, #91c4c2, #1e4543);
-    font-weight: bolder;
-}
 
 .rutgers-image {
-    height: 200px;
-    width: 275px;
+    width: 100%;
+  border: 0 none;
+  float: left;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
 }
 /*rock*/
-.rock-box {
-    position: relative;
-    float: left;
-    margin-left: 30px;
-    margin-top: 25px;
-}
 
-.rock-box .rock-text {
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    bottom: 5%;
-    width: 275px;
-    background-color: #4aaaa5;
-    text-align: center;
-}
-
-.rock-text:hover {
-    outline: 0px solid transparent;
-    color: #ffffff;
-    background-image: 
-        linear-gradient( 
-            to right,
-            #1e4543, #91c4c2, #1e4543);
-    font-weight: bolder;
-}
 
 .rock-image {
-    height: 200px;
-    width: 275px;
+    width: 100%;
+    border: 0 none;
+    float: left;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
 }
 
+.auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
 /*main-container for portfolio.html page */
 .games {
     background-color: #ffffff;

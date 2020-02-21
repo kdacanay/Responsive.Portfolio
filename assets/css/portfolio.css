@@ -2,9 +2,11 @@
 .gametext {
     color: #ffffff;
 }
+
 .gametext:hover {
     color: #777777;
 }
+
 .textbox {
     position: relative;
     float: left;
@@ -15,49 +17,52 @@
 
 .textbox:hover {
     outline: 0px solid transparent;
-    background-image: 
-        linear-gradient( 
-            to right,
+    background-image:
+        linear-gradient(to right,
             #1e4543, #91c4c2, #1e4543);
     font-weight: bolder;
 }
 
 .textbox h3 {
-        position: absolute;
-        bottom: 20px;
-        width: 100%;
-        padding: 15px;
-        margin-bottom: 0;
-        font-weight: 300;
-        line-height: 30px;
-        color: #ffffff;
-        text-align: center;
-        background: #4aaaa5;
-        border-bottom: 0;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
 }
+
 .textbox:nth-child(even) {
     margin-right: 40px;
-  }
+}
+
 /*hangman*/
 
 .hangman-image {
     width: 100%;
     border: 0 none;
-        float: left;
-        height: auto;
-        margin-top: 10px;
-        margin-right: 25px;
+    float: left;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
 }
+
 /*rpg*/
 
 .rpg-image {
     width: 100%;
     border: 0 none;
     float: left;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 40px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 40px;
 }
+
 /*trivia*/
 
 
@@ -69,16 +74,18 @@
     margin-top: 10px;
     margin-right: 25px;
 }
+
 /*rutgers*/
 
 .rutgers-image {
     width: 100%;
-  border: 0 none;
-  float: left;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 40px;
+    border: 0 none;
+    float: left;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 40px;
 }
+
 /*rock*/
 
 
@@ -96,38 +103,43 @@
 .games {
     background-color: #ffffff;
     margin-top: 50px;
-    width: 960px; 
+    width: 960px;
     font-family: Arial, Helvetica, sans-serif;
     height: 825px;
     color: #ffffff;
 }
 
 @media screen and (max-width: 980px) {
-   .main-section { 
-       width: 60%;
-   }
-   .textbox {
-       width: 40%;
-   }
+    .main-section {
+        width: 60%;
+    }
+
+    .textbox {
+        width: 40%;
+    }
 }
+
 @media screen and (max-width: 768px) {
     .main-section {
-    width: 93%;
-    height: 1000px;
-    margin-right: 100px;
-}
+        width: 93%;
+        height: 1000px;
+        margin-right: 100px;
+    }
+
     .textbox {
         width: 45%;
     }
-@media screen and (max-width: 640px) {
-    .main-section {
-        width: 60%;
-        padding-bottom: 1500px;
-        margin-left: 120px;
-        float: none; 
+
+    @media screen and (max-width: 640px) {
+        .main-section {
+            width: 60%;
+            padding-bottom: 1500px;
+            margin-left: 120px;
+            float: none;
+        }
+
+        .textbox {
+            width: 90%;
+            margin-left: 15px;
+        }
     }
-    .textbox {
-        width: 90%;
-        margin-left: 15px;
-    }
-}

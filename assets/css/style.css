@@ -8,7 +8,7 @@ body {
     margin: 0;
     background-image: url("../images/vichy_@2X.png");
     background-color: lightgrey;      
-    height: 1500px; 
+    height: 2000px; 
     font-size: 18px;     
     line-height: 30px;                 
 }
@@ -22,6 +22,7 @@ body {
     color: #ffffff;
     background: #ffffff;
     border-bottom:  #cccccc;
+    z-index: 999;
   }
   #top-nav:hover {
     outline: 0px solid transparent;
@@ -45,6 +46,7 @@ body {
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
+    z-index: 999;
   }
   .name:hover {
     outline: 0px solid transparent;
@@ -60,6 +62,7 @@ body {
     float: right;
     margin-top: 25px;
     width: 40%;
+    z-index: 999;
   }
   nav:hover {
     outline: 0px solid transparent;
@@ -77,7 +80,7 @@ body {
     line-height: 15px;
     color: #777777;
     text-decoration: none;
-    
+    z-index: 999;
   }
   nav a:hover {
     outline: 0px solid transparent;
@@ -160,6 +163,9 @@ body {
     margin: 0 0 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
+    margin-top: 40px;
+    height: 80%;
+    max-height: fit-content;
   }
   .main-section:hover {
     outline: 0px solid transparent;
@@ -196,7 +202,7 @@ body {
 }
 
 .contact-name {
-    width: 850px;
+    width: 97%;
     padding: 5px; 
     margin-bottom: 10px;
     margin-top: 5px;
@@ -205,7 +211,7 @@ body {
 }
 
 .contact-email {
-    width: 850px;
+    width: 97%;
     padding: 5px;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -215,7 +221,7 @@ body {
 
 .contact-message {
     margin-top: 5px;
-    width: 850px;
+    width: 97%;
     padding: 30px;
     margin-bottom: 5px;
     text-align: left;
@@ -258,12 +264,13 @@ body {
     display: inline-block;
     position: relative;
     float: none;
+    z-index: 999;
   }
   .top-nav {
     width: 100%;
     margin-right: 100px;
     text-align: center;
-    
+    z-index: 999;
   }
   .main-section {
     margin-top: 40px;
@@ -298,7 +305,6 @@ body {
   float: none;
   margin-left: 20px;
   margin-right: 50px;
-  left: 0;
 }
 .about-image {
   float: none;
@@ -307,5 +313,8 @@ body {
   margin-right: auto;
   position: relative;
   height: 50%;
+}
+.page-form {
+  width: 100%;
 }
 }

@@ -8,7 +8,7 @@
 .textbox {
     position: relative;
     float: left;
-    width: 295px;
+    width: 32%;
     margin: 20px 0 25px;
     overflow: auto;
 }
@@ -100,4 +100,34 @@
     font-family: Arial, Helvetica, sans-serif;
     height: 825px;
     color: #ffffff;
+}
+
+@media screen and (max-width: 980px) {
+   .main-section { 
+       width: 60%;
+   }
+   .textbox {
+       width: 40%;
+   }
+}
+@media screen and (max-width: 768px) {
+    .main-section {
+    width: 93%;
+    height: 1000px;
+    margin-right: 100px;
+}
+    .textbox {
+        width: 45%;
+    }
+@media screen and (max-width: 640px) {
+    .main-section {
+        width: 60%;
+        padding-bottom: 1500px;
+        margin-left: 120px;
+        float: none; 
+    }
+    .textbox {
+        width: 90%;
+        margin-left: 15px;
+    }
 }
